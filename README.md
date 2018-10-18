@@ -1,5 +1,4 @@
-# Life
-Simulation of Life
+# Life Simulation in Python
 
 Basic rules of Life:
 "World" is represented as an N by N matrix. Each element in the matrix may contain 1 organism. Each organism lives, dies and reproduces according to the following set of rules:
@@ -16,3 +15,5 @@ condition is true for more then one species on the same element then species typ
 for the new element is chosen randomly.
 – If two organisms occupy one element, one of them must die (chosen randomly)
 (only to resolve initial conflicts).
+
+Initial matrix is loaded from an XML file.
