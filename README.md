@@ -1,7 +1,7 @@
 # Life Simulation in Python
 
-Basic rules of Life:
-"World" is represented as an N by N matrix. Each element in the matrix may contain 1 organism. Each organism lives, dies and reproduces according to the following set of rules:
+Basic rules of Life:  
+"World" is represented as an N by N matrix. Each element in the matrix may contain 1 organism. Each organism lives, dies and reproduces according to the following set of rules:  
 
 – If there are two or three organisms of the same type living in the elements
 surrounding an organism of the same, type then it may survive.  
