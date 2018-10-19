@@ -5,6 +5,7 @@ sys.path.append('..')
 import unittest  # noqa: E402
 import life  # noqa: E402
 
+
 class BasicTestSuite(unittest.TestCase):
 
     def test_run(self):
