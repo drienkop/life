@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<life>
+   <world>
+      <cells>5</cells> // Dimension of the square "world"
+      <species>5</species> // Number of distinct species
+      <iterations>1000</iterations> // Number of iterations to be calculated
+   </world>
+   <organisms>
+      <organism>
+         <x_pos>0</x_pos> // x position
+         <y_pos>0</y_pos> // y position
+         <species>1</species> // Species type
+      </organism>
+      <organism>
+         <x_pos>1</x_pos>
+         <y_pos>0</y_pos>
+         <species>1</species>
+      </organism>
+      <organism>
+         <x_pos>2</x_pos>
+         <y_pos>0</y_pos>
+         <species>2</species>
+      </organism>
+      <organism>
+         <x_pos>4</x_pos>
+         <y_pos>0</y_pos>
+         <species>3</species>
+      </organism>
+      <organism>
+         <x_pos>0</x_pos>
+         <y_pos>1</y_pos>
+         <species>1</species>
+      </organism>
+      <organism>
+         <x_pos>2</x_pos>
+         <y_pos>1</y_pos>
+         <species>2</species>
+      </organism>
+      <organism>
+         <x_pos>4</x_pos>
+         <y_pos>1</y_pos>
+         <species>3</species>
+      </organism>
+      <organism>
+         <x_pos>3</x_pos>
+         <y_pos>2</y_pos>
+         <species>2</species>
+      </organism>
+      <organism>
+         <x_pos>1</x_pos>
+         <y_pos>3</y_pos>
+         <species>4</species>
+      </organism>
+      <organism>
+         <x_pos>0</x_pos>
+         <y_pos>4</y_pos>
+         <species>4</species>
+      </organism>
+      <organism>
+         <x_pos>2</x_pos>
+         <y_pos>4</y_pos>
+         <species>4</species>
+      </organism>
+   </organisms>
+</life>
