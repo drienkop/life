@@ -18,8 +18,11 @@ for the new element is chosen randomly.
   
 Initial matrix is loaded from an XML file.
 
+## Minimum Python version
+3.6.6
+
 ## Run an example simulation
-`python example.py`
+`make run`
 
 ## Run tests
-`nosetests tests`
+`make test`
