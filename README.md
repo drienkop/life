@@ -16,8 +16,10 @@ for the new element is chosen randomly.
 – If two organisms occupy one element, one of them must die (chosen randomly)
 (only to resolve initial conflicts).  
   
-Initial matrix is loaded from an XML file.  
+Initial matrix is loaded from an XML file.
 
 ## Run an example simulation
+`python example.py`
 
 ## Run tests
+`nosetests tests`
