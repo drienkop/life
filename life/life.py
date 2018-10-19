@@ -108,7 +108,6 @@ class Life:
                         neighbour_counter[neighbour.type] += 1
                     else:
                         neighbour_counter[neighbour.type] = 1
-                        
         return neighbour_counter
 
     def same_type_as_neighbours(self, element: Organism, neighbours_type_count: dict) -> bool:
