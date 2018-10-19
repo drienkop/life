@@ -40,10 +40,10 @@ class BasicTestSuite(unittest.TestCase):
                </organisms>
             </life>"""
 
-        with open('../xml/tmp_seed.xml', 'w') as text_file:
+        with open('tmp_seed.xml', 'w') as text_file:
             text_file.write(mock_world_file)
 
-        self.simulation = life.Life('../xml/tmp_seed.xml', output_xml_file='../xml/out.xml')
+        self.simulation = life.Life('tmp_seed.xml', output_xml_file='xml/out.xml')
         expected_world = [life.Organism(0, 0, 1).type, life.Organism(0, 1, 1).type, life.Organism(1, 0, 1).type,
                           life.Organism(1, 1, 1).type]
         run_world = []
