@@ -108,6 +108,7 @@ class Life:
                         neighbour_counter[neighbour.type] += 1
                     else:
                         neighbour_counter[neighbour.type] = 1
+                        
         return neighbour_counter
 
     def same_type_as_neighbours(self, element: Organism, neighbours_type_count: dict) -> bool:
@@ -152,11 +153,11 @@ class Life:
                             if 3 in neighbours_types.values():
                                 new_type = self.get_random_type(neighbours_types, required_count=[2, 3])  # Random BIRTH
                             else:
-                                new_type = element.type  # Same as old type
+                                new_type = element.type  # SURVIVE
                         else:
                             new_type = None  # DIES
                     else:
-                        new_type = self.get_random_type(neighbours_types, required_count=[3])  # Random Birth
+                        new_type = self.get_random_type(neighbours_types, required_count=[3])  # Random BIRTH
 
                     # Save the new type
                     if new_type:
