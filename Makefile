@@ -5,7 +5,7 @@ flake8:
 	flake8
 
 test:
-	pytest tests
+	python3 -m pytest tests
 
 run:
 	python3 example.py
